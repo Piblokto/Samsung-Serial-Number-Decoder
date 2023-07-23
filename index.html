@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Samsung TV Serial Number Decoder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Samsung TV Serial Number Decoder</h1>
+            <div class="field">
+                <label for="serialInput" class="label">Enter your 15-digit Samsung TV Serial Number:</label>
+                <div class="control">
+                    <input type="text" id="serialInput" class="input" maxlength="15">
+                </div>
+            </div>
+            <div class="field has-text-centered">
+                <button class="button is-primary" onclick="decodeSerial()">Decode Serial Number</button>
+            </div>
+            <div id="result" class="has-text-centered"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
